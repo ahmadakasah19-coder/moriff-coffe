@@ -6,7 +6,6 @@
     <title>Moriff Coffee</title>
 
     <style>
-        /* --- STICKY FOOTER PERBAIKAN FULL --- */
         body {
             font-family: Arial, sans-serif;
             background: #f5e6d3;
