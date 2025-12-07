@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<h1>Selamat Datang di Kedai Kopi</h1>
+<h1>Selamat Datang di Moriff Coffe</h1>
 
 <div class="card">
     <h3>Menu Kopi</h3>

@@ -6,10 +6,16 @@
     <title>Moriff Coffee</title>
 
     <style>
+        /* --- STICKY FOOTER PERBAIKAN FULL --- */
         body {
             font-family: Arial, sans-serif;
             background: #f5e6d3;
             margin: 0;
+
+            /* penting untuk sticky footer */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         nav {
@@ -24,10 +30,12 @@
             font-weight: bold;
         }
 
+        /* container harus fleksibel agar mendorong footer ke bawah */
         .container {
             width: 90%;
             margin: auto;
             margin-top: 30px;
+            flex: 1; /* sangat penting */
         }
 
         .card {

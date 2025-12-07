@@ -7,7 +7,7 @@
 
 @foreach($jenis as $j)
 <div class="card">
-    <h3>{{ $j->nama }}</h3>
+    <h3>{{ $j->nama_jenis }}</h3>
 
     @if($j->gambar)
         <img src="{{ asset('storage/'.$j->gambar) }}" width="150">
